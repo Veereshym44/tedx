@@ -1,0 +1,18 @@
+
+.dropdown-container a {
+    flex: 0;
+    text-align: right;
+    text-decoration: none;
+    text-transform: capitalize;
+    color:red;
+    text-align: center;
+    transition: 0.5s;
+  }
+  
+  .dropdown-container a:hover {
+    color: white;
+  }
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+ }

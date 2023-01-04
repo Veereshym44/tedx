@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#1d1d1d">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/sideboot.css">  
+    <link rel="stylesheet" href="css/event.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Event</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-sm-start fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto" href="#">
+                <img src="img/logo.png" width="300px" height="59px" alt="Brand">
+            </a>
+            <button class="navbar-toggler align-self-start" type="button">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse bg-dark p-3 p-lg-0 mt-5 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-end mobileMenu" id="navbarSupportedContent">
+            <ul class="navbar-nav align-self-stretch">
+                <li class="nav-item">
+                    <a class="nav-link h6" href="/home.html">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link h6" href="/about.html">About Us<span class="sr-only"></span></a>
+                </li>    
+                <li class="nav-item">
+                    <a class="nav-link h6" href="/event.html" tabindex="-1" aria-disabled="true">Event</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link h6" href="/tickets.html" tabindex="-1" aria-disabled="true">Tickets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link h6" href="sponsors.html" tabindex="-1" aria-disabled="true">Sponsors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link h6" href="/contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="overlay"></div>
+
+    <div class="container-fluid head-19">
+        <div class="row text-center justify-content-center head-h-19">
+            <h1> <span style="color: #e62b1e; font-weight: bold;">TEDx</span>SiddagangaInstituteofTechnology - 2021</h1>
+            <div class="row text-center justify-content-center head-th-sm-19">
+                <h3><span class="justify-content-start" style="color: #e62b1e;">Theme - </span>All I could think: Unravelling the mind.</h3>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="container-fluid tedx19">
+        <div class="black-overlay"></div>
+        <div class="row text-center justify-content-center head-th-19" style="padding-top: 12rem;">
+            <h2><span class="justify-content-start">Theme - </span>All I could think: Unravelling the mind.</h2>
+        </div>
+    </div>
+
+    <div class="container-fluid spk">
+        <div class="row justify-content-center spk-row">
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-img justify-content-center text-center">
+                <img src="/img/eimg1.png" alt="Santa Santosh Avvanvar">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-txt justify-content-center">
+                <h2 class="spk-name">Santa Santosh Avvanvar</h2>
+                <div class="spk-quote">
+                    <i class="fa fa-quote-left fa-3x"></i>
+                    <h2>Stories we believe, shapes us!</h2>
+                </div>
+                <div class="row text-center py-5">
+                    <div class="col-sm-12 col-lg-12">
+                        <p>Watch the talk <a target="_blank" href="https://www.youtube.com/watch?v=9TRtStMklW8&list=PLyQigRyXOXl6cSlsDq6NOzc1SSIk5XyxJ&index=5"> <i class="fa fa-youtube-play fa-2x yt-link"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid spk">
+        <div class="row justify-content-center spk-row">
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-img justify-content-center text-center">
+                <img src="/img/eimg2.png" alt="Natasha Noel">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-txt justify-content-center">
+                <h2 class="spk-name">Natasha Noel</h2>
+                <div class="spk-quote">
+                    <i class="fa fa-quote-left fa-3x"></i>
+                    <h2>Battling the Mind </h2>
+                </div>
+                <div class="row text-center py-5">
+                    <div class="col-sm-12 col-lg-12">
+                        <p>Watch the talk <a target="_blank" href="https://www.youtube.com/watch?v=9WspWJ-CR3w&list=PLyQigRyXOXl6cSlsDq6NOzc1SSIk5XyxJ&index=9"><i class="fa fa-youtube-play fa-2x yt-link"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid spk">
+        <div class="row justify-content-center spk-row">
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-img justify-content-center text-center">
+                <img src="/img/eimg11.jpg" alt="Prasanna Murthy">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-txt justify-content-center">
+                <h2 class="spk-name">Prasanna Murthy</h2>
+                <div class="spk-quote">
+                    <i class="fa fa-quote-left fa-3x"></i>
+                    <h2>Zero Budget Natural Farming</h2>
+                </div>
+                <div class="row text-center py-5">
+                    <div class="col-sm-12 col-lg-12">
+                        <p>Watch the talk <a target="_blank" href="https://www.youtube.com/watch?v=zNdCCgB-K0M&list=PLyQigRyXOXl6cSlsDq6NOzc1SSIk5XyxJ&index=10"><i class="fa fa-youtube-play fa-2x yt-link"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid spk">
+        <div class="row justify-content-center spk-row">
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-img justify-content-center text-center">
+                <img src="/img/eimg4.png" alt="Pooja Sachedeva">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-txt justify-content-center">
+                <h2 class="spk-name">Pooja Sachedeva</h2>
+                <div class="spk-quote">
+                    <i class="fa fa-quote-left fa-3x"></i>
+                    <h2>Three rules to achieve your goal</h2>
+                </div>
+                <div class="row text-center py-5">
+                    <div class="col-sm-12 col-lg-12">
+                        <p>Watch the talk <a target="_blank" href="https://www.youtube.com/watch?v=xjOttVoITSo&list=PLyQigRyXOXl6cSlsDq6NOzc1SSIk5XyxJ&index=1"><i class="fa fa-youtube-play fa-2x yt-link"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid spk">
+        <div class="row justify-content-center spk-row">
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-img justify-content-center text-center">
+                <img src="/img/eimg5.jpg" alt="Goonjan Mall">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-txt justify-content-center">
+                <h2 class="spk-name">Goonjan Mall</h2>
+                <div class="spk-quote">
+                    <i class="fa fa-quote-left fa-3x"></i>
+                    <h2>Dhoni's strategy for a start-up!</h2>
+                </div>
+                <div class="row text-center py-5">
+                    <div class="col-sm-12 col-lg-12">
+                        <p>Watch the talk <a target="_blank" href="https://www.youtube.com/watch?v=uGxp6_k03wk&list=PLyQigRyXOXl6cSlsDq6NOzc1SSIk5XyxJ&index=2"><i class="fa fa-youtube-play fa-2x yt-link"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid spk">
+        <div class="row justify-content-center spk-row">
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-img justify-content-center text-center">
+                <img src="/img/eimg6.jpg" alt="Dr. Dakshayini Kanna">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-txt justify-content-center">
+                <h2 class="spk-name">Dr. Dakshayini Kanna</h2>
+                <div class="spk-quote">
+                    <i class="fa fa-quote-left fa-3x"></i>
+                    <h2>Making THAT right choice</h2>
+                </div>
+                <div class="row text-center py-5">
+                    <div class="col-sm-12 col-lg-12">
+                        <p>Watch the talk <a target="_blank" href="https://www.youtube.com/watch?v=Vf4fjyy4_xs&list=PLyQigRyXOXl6cSlsDq6NOzc1SSIk5XyxJ&index=4"><i class="fa fa-youtube-play fa-2x yt-link"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid spk">
+        <div class="row justify-content-center spk-row">
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-img justify-content-center text-center">
+                <img src="/img/eimg7.jpg" alt="Parameshwaran">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-txt justify-content-center">
+                <h2 class="spk-name">Parameshwaran</h2>
+                <div class="spk-quote">
+                    <i class="fa fa-quote-left fa-3x"></i>
+                    <h2>Survivors | Parameshwaran and Sangeetha Param </h2>
+                </div>
+                <div class="row text-center py-5">
+                    <div class="col-sm-12 col-lg-12">
+                        <p>Watch the talk <a target="_blank" href="https://www.youtube.com/watch?v=6AJGc-6Ai1I&list=PLyQigRyXOXl6cSlsDq6NOzc1SSIk5XyxJ&index=11"><i class="fa fa-youtube-play fa-2x yt-link"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid spk">
+        <div class="row justify-content-center spk-row">
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-img justify-content-center text-center">
+                <img src="/img/eimg8.jpg" alt="Alcatraz Dey">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-txt justify-content-center">
+                <h2 class="spk-name">Alcatraz Dey</h2>
+                <div class="spk-quote">
+                    <i class="fa fa-quote-left fa-3x"></i>
+                    <h2>Understand yourself, wait, why give up?</h2>
+                </div>
+                <div class="row text-center py-5">
+                    <div class="col-sm-12 col-lg-12">
+                        <p>Watch the talk <a target="_blank" href="https://www.youtube.com/watch?v=1U6-bfyiU9w&list=PLyQigRyXOXl6cSlsDq6NOzc1SSIk5XyxJ&index=8"><i class="fa fa-youtube-play fa-2x yt-link"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid spk">
+        <div class="row justify-content-center spk-row">
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-img justify-content-center text-center">
+                <img src="/img/eimg9.jpg" alt="Dr. Praveen Kumar Vemula">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-txt justify-content-center">
+                <h2 class="spk-name">Dr. Praveen Kumar Vemula</h2>
+                <div class="spk-quote">
+                    <i class="fa fa-quote-left fa-3x"></i>
+                    <h2>Anti-Pesticide: A boon to farmers</h2>
+                </div>
+                <div class="row text-center py-5">
+                    <div class="col-sm-12 col-lg-12">
+                        <p>Watch the talk <a target="_blank" href="https://www.youtube.com/watch?v=VWg0TPWJ4As&list=PLyQigRyXOXl6cSlsDq6NOzc1SSIk5XyxJ&index=15"><i class="fa fa-youtube-play fa-2x yt-link"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid spk">
+        <div class="row justify-content-center spk-row">
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-img justify-content-center text-center">
+                <img src="/img/eimg10.jpg" alt="Baisakhi Saha">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-txt justify-content-center">
+                <h2 class="spk-name">Baisakhi Saha</h2>
+                <div class="spk-quote">
+                    <i class="fa fa-quote-left fa-3x"></i>
+                    <h2>Breaking the boundaries of perception</h2>
+                </div>
+                <div class="row text-center py-5">
+                    <div class="col-sm-12 col-lg-12">
+                        <p>Watch the talk <a target="_blank" href="https://www.youtube.com/watch?v=-t5m8ERlMYA&list=PLyQigRyXOXl6cSlsDq6NOzc1SSIk5XyxJ&index=7"><i class="fa fa-youtube-play fa-2x yt-link"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid spk">
+        <div class="row justify-content-center spk-row">
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-img justify-content-center text-center">
+                <img src="/img/eimg3.jpg" alt="Surendra Shah">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 spk-txt justify-content-center">
+                <h2 class="spk-name">Surendra Shah</h2>
+                <div class="spk-quote">
+                    <i class="fa fa-quote-left fa-3x"></i>
+                    <h2>Leadership in disruptive times</h2>
+                </div>
+                <div class="row text-center py-5">
+                    <div class="col-sm-12 col-lg-12">
+                        <p>Watch the talk <a target="_blank" href="https://www.youtube.com/watch?v=6uU44gmQ9NY&t=31s"><i class="fa fa-youtube-play fa-2x yt-link"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center footer" style="position: absolute; left:0;">
+        <div class="row d-flex">
+            <div class="col-lg-12 col-sm-12 follow-us">
+                <p>Follow Us</p>
+                <a target="_blank" href="https://www.facebook.com/TedxSiddaganga/"> <i class="fa fa-facebook-square fa-2x"></i> </a> 
+                <a target="_blank" href="https://www.instagram.com/tedxsiddaganga/"><i class="fa fa-instagram fa-2x"></i> </a>
+                <a target="_blank" href="https://www.linkedin.com/company/tedxsiddagangainstituteoftechnology/"> <i class="fa fa-linkedin fa-2x"></i> </a>
+                <a target="_blank" href="https://www.youtube.com/playlist?list=PLsRNoUx8w3rObeqVf0UUCLr4ZGnDNk-DA"> <i class="fa fa-youtube-play fa-2x"></i> </a>
+                <p style="padding-top: 10px;"> &copy 2020-21 Copyright: TEDxSiddagangaInstituteofTechnology <br>This independent TEDx event is operating under license from TED. </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  
+    <script src="js/sideboot.js"></script>
+    <script src="js/event-scroll.js"></script>
+    
+</body>
+</html>

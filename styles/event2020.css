@@ -1,0 +1,131 @@
+.head-19{
+    background-color: #1d1d1d;
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+}
+
+.tedx19{
+    min-height: 70vh;
+    background-image: url("/images/parllex.jpeg");
+    position: relative;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    background-attachment: fixed;
+}
+
+.head-th-19 h2{
+    font-size: 40px;
+    z-index: 2;
+}
+
+.head-th-19 h2 span{
+    color: #e62b1e;
+    font-weight: bold;
+}
+.spk-row{
+    padding: 5rem;
+}
+.black-overlay{
+    width: 100%;
+    min-height: 550px;
+    background-color: #1d1d1d;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.head-th-sm-19{
+    padding-top: 2rem;
+    display: none;
+}
+
+.head-th-sm-19 h2{
+    font-size: 3vh;
+}
+
+.spk-row{
+    padding-top: 10%;
+    background-color: #1d1d1d;
+}
+
+.spk-img img{
+    max-height: 90%;
+    max-width: 90%;
+}
+
+.spk-name{
+    font-size: 3rem;
+}
+
+.spk-quote{
+    padding-top: 9%;
+}
+
+.spk-txt h5{
+    line-height: 7vh;
+}
+
+.yt-link{
+    color:#e62b1e;
+    padding-left: 5%;
+}
+
+.follow-us i{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+@media(max-width:992px){
+
+    .head-h-19 h1, .head-th-19 h2{
+        font-size: 130%;
+    }
+
+    .head-th-sm-19{
+        display: block;
+    }
+
+    .tedx19{
+        display: none;
+    }
+}
+.header-menu ul li{
+    position: relative;
+  
+  }
+  .dropdown-container{
+    display: none;
+  }
+  .header-menu ul li:hover .dropdown-container{
+    display: block;
+    background-color: black;
+    position: absolute;
+    top:100%;
+    left:0;
+    z-index:999;
+    width: 120px;
+    padding:10px 10px;
+  }
+  .dropdown-container ul{
+    list-style: none;
+    display: block;
+    padding:0;
+    
+  }
+  
+  .dropdown-container ul li a{
+    text-decoration: none;
+    color: red;
+    transition-property:color border;
+    transition-duration: 500ms;
+    transition-delay: 200ms;
+    transition-timing-function: ease-out;
+  }
+  .dropdown-container ul li a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+  }

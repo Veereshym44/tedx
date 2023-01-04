@@ -1,0 +1,284 @@
+body {
+  margin-top: 0px;
+  background: #1d1d1d;
+  color: #1d1d1d;
+  line-height: 1.6;
+  font-family: "Poppins", sans-serif;
+}
+.button:hover{
+color: white;
+background-color: red;
+}
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.brand {
+  text-align: center;
+  color: #e62b1e;
+  font-weight: bold;
+}
+
+.wrapper > * {
+  padding: 1em;
+}
+
+.wrapper ul li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.company-info {
+  background: #1d1d1d;
+}
+
+.company-info h3,
+.company-info ul {
+  color: rgb(248, 248, 248);
+  text-align: left;
+  margin: 2rem 0 1rem 0;
+}
+
+.contact {
+  background: #e62b1e;
+}
+
+/* FORM STYLES */
+.contact form {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.name-area {
+  grid-row: 1;
+}
+
+.email-area {
+  grid-row: 3;
+}
+
+.phone-area {
+  grid-row: 2;
+}
+
+.message-area {
+  grid-row: 4;
+}
+
+.contact form label {
+  display: block;
+}
+
+.contact form p {
+  margin: 0;
+}
+
+.contact form .full {
+  grid-column: 1 / 3;
+}
+
+.contact form button,
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #c9e6ff;
+}
+
+.contact form button {
+  background: #292828;
+  border: 0;
+  text-transform: uppercase;
+  width: 10%;
+}
+
+.contact form button:hover,
+.contact form button:focus {
+  background: #1d1d1d;
+  color: #fff;
+  outline: 0;
+  transition: background-color 0.2s ease-out;
+}
+
+.alert {
+  background-color: #292828;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  margin-bottom: 10px;
+  display: none;
+}
+
+/* LARGE SCREENS */
+@media (min-width: 720px) {
+  .wrapper {
+    display: grid;
+    /* grid-template-columns: 1fr 2fr; */
+    grid-template-rows: 1fr;
+  }
+
+  .contact form {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .name-area {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .email-area {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .phone-area {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .message-area {
+    grid-column: 2;
+    grid-row: 3 / 1;
+  }
+
+  .wrapper > * {
+    padding: 2em;
+  }
+
+  .company-info h3,
+  .company-info ul,
+  .brand {
+    text-align: left;
+  }
+}
+input,textarea{
+    border-radius: 10px;
+  }
+
+  nav{
+    font-family: 'Poppins' !important;
+  }
+  
+  .floatingNav {
+    border-radius: 2px;
+    box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.4);
+  }
+  
+  .navbar-toggler{
+    width: 50px;
+  }
+  
+  .navbar-toggler-icon{
+    width: 1.5rem;
+  }
+  
+  .bg-dark {
+    background-color: #1d1d1d !important;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    letter-spacing: 2px;
+    color: red;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+
+.navbar-dark .navbar-nav .nav-link {
+    letter-spacing: 2px;
+    color: red;
+}
+
+  .footer{
+    color: rgb(248, 248, 248);
+    padding-top: 1rem;
+    background-color: rgb(19, 18, 18);
+    font-size: 13px;
+    line-height: 20px;
+  }
+  
+  .follow-us i{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  .fa-instagram{
+    color: white;
+  }
+  
+  .fa-youtube-play{
+    color: white;
+  }
+  
+  .fa-facebook-square{
+    color: white;
+  }
+  .fa-linkedin{
+    color: white;
+  }
+  
+  .fa-instagram:hover{
+    color: red;
+  }
+  
+  .fa-youtube-play:hover{
+    color: red;
+  }
+  
+  .fa-facebook-square:hover{
+    color: red;
+  }
+  .fa-linkedin:hover
+  {
+    color: red;
+  }
+  
+  .header-menu ul li{
+    position: relative;
+  
+  }
+  .dropdown-container{
+    display: none;
+  }
+  .header-menu ul li:hover .dropdown-container{
+    display: block;
+    background-color: black;
+    position: absolute;
+    top:100%;
+    left:0;
+    z-index:999;
+    width: 120px;
+    padding:10px 10px;
+  }
+  .dropdown-container ul{
+    list-style: none;
+    display: block;
+    padding:0;
+    
+  }
+  
+  .dropdown-container ul li a{
+    text-decoration: none;
+    color: red;
+    transition-property:color border;
+    transition-duration: 500ms;
+    transition-delay: 200ms;
+    transition-timing-function: ease-out;
+  }
+  .dropdown-container ul li a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+  }
